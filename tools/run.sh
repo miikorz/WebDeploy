@@ -1,2 +1,2 @@
-export ANT_HOME=.tools/ant
+export ANT_HOME=./ant
 $ANT_HOME/bin/ant $*
