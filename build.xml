@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Ejemplo1" default="t1" basedir="."> 
+<project name="AD" default="t1" basedir="."> 
 <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"/>
 <taskdef name="start" classname="org.apache.catalina.ant.StartTask"/>
 <taskdef name="stop" classname="org.apache.catalina.ant.StopTask"/>
