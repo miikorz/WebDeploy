@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="AD" default="t1" basedir="."> 
+<project name="AD" default="default" basedir=".">
+<import file="nbproject/build.impl.xml"/> 
 <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"/>
 <taskdef name="start" classname="org.apache.catalina.ant.StartTask"/>
 <taskdef name="stop" classname="org.apache.catalina.ant.StopTask"/>
