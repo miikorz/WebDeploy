@@ -9,7 +9,7 @@
 <property name="j2ee.server.home" value="./tools/ant" />
 <taskdef name="closeconnections" classname="es.elfframework.ant.CloseTomcatDataSource"/>
     <target name="t1" depends="dist">
-		<deploy url="http://172.16.205.136/manager/text" username="admin" password="admin" path="/Facturacion" war="./dist/AD.war" update="true"/>
+		<deploy url="http://172.16.205.178/manager/text" username="admin" password="admin" path="/Facturacion" war="./dist/AD.war" update="true"/>
     </target>
 </project>   
 
